@@ -5,6 +5,8 @@ import os
 from torch.utils.data import Dataset, DataLoader
 import logging
 
+
+# change test the vscode git 
 # 确保 logs 目录存在
 os.makedirs("logs", exist_ok=True)
 ##数据集#数据已经归一化处理
