@@ -45,7 +45,7 @@ class Mydataset(torch.utils.data.Dataset):
         y = self.labels[index]
         return x, y
 
-
+# change test the vscode git
 # 加载数据集和标签
 train_data = Mydataset(ori_traindata, train_label)
 # DataLoader中的shuffer=False表示不打乱数据的顺序，Ture表示在每一次epoch中都打乱所有数据的顺序
